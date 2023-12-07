@@ -5,6 +5,7 @@ header
     .headerTop
         nav
             opacity: 70%
+            background-color: rgba(0,0 ,0 ,35%)
             div>ul>li>a:hover
                 color: #CDA45D !important
     .headerBottom
@@ -16,6 +17,13 @@ header
                     position: relative
                     border: solid 2px #CDA45D
                     z-index: 1
+                    i.fa-play
+                        transition: transform 0.1s
+                        animation: play 0.2s ease
+                    &:hover
+                        i.fa-play
+                            transform: scale(1.4) 
+                            transition: transform 0.2s ease 
                     &:before 
                         content: ""
                         position: absolute
@@ -43,15 +51,22 @@ header
 
                 
                 @keyframes wave
-                    from
+                    0%
                         transform: translate(-50%,-50%) scale(0.1)
                         opacity: 1
-                    to
+                    100%
                         transform: translate(-50%,-50%) scale(1.1)
                         opacity: 0
 
-                .playbutton>i.fa-play:hover  
-                    font-size: 50px
+                @keyframes play
+                    0%
+                        opacity: 1
+                    50%
+                        opacity: 0.5 
+                        color: #640000 
+                    100%
+                        opacity: 0
+                        
                         
 
         
