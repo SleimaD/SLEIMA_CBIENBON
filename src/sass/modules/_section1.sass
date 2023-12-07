@@ -5,8 +5,12 @@
     justify-content: center
     align-items: center
     position: relative
+
     .section1Left
-        width: 40%
+        width: 50%
+        display: flex
+        flex-direction: column
+        align-items: flex-start
     .section1Right
         width: 50%
         .imgdroite
@@ -17,26 +21,37 @@
             display: flex
             justify-content: center
             align-items: center
+            transition: 1s ease
             .divcorner
-                position: relative
+                position: relative  
             .divcorner::before, .divcorner::after
                 content: ''
                 position: absolute
                 border: 4px solid #CDA45D
+                transition: 1s ease 
             .divcorner::before
                 top: 0
                 left: 0
                 width: 50px
                 height: 50px
                 border-bottom: none
-                border-right: none
+                border-right: none 
             .divcorner::after
                     bottom: 0
                     right: 0
                     width: 50px
                     height: 50px
                     border-top: none
-                    border-left: none
+                    border-left: none 
+        .imgdroite:hover 
+            transform: scale(1.1) 
+            
+        .imgdroite:hover .divcorner::before
+            transform: translateY(-10px) translateX(-15px)
+        .imgdroite:hover .divcorner::after
+            transform: translateX(15px) translateY(10px)
+
+            
         
             
 
