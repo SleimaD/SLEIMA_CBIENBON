@@ -196,12 +196,20 @@ header::before {
     width: 80%;
   }
   .section1 .section1Right {
-    width: 100%;
+    width: 80% !important;
     display: flex;
     justify-content: center;
   }
   .section1 .section1Right .imgdroite {
-    width: 100%;
+    width: 100% !important;
+  }
+  .section1 .section1Right .imgdroite .divcorner::before {
+    top: -8px;
+    left: -62px;
+  }
+  .section1 .section1Right .imgdroite .divcorner::after {
+    bottom: -8px;
+    right: -62px;
   }
 }
 @media (min-width: 375px) and (max-width: 450px) {
