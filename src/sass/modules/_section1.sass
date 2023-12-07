@@ -1,0 +1,58 @@
+.section1
+    width: 100%
+    // height: 500px
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    .section1Left
+        width: 40%
+    .section1Right
+        width: 50%
+        .imgdroite
+            background-size: cover
+            border: solid 5px #3f3e3e
+
+
+
+
+
+
+    // .section1Right
+    //     width: 50%
+    //     position: relative
+    //     display: inline-block
+    // .section1Right::before,.section1Right::after
+    //     content: ''
+    //     position: absolute
+    //     width: 20px
+    //     height: 20px 
+    //     background: transparent
+    // .section1Right::before 
+    //     top: 0
+    //     left: 0
+    //     border-top: 3px solid #ff0000
+    //     border-left: 3px solid #ff0000
+    // .section1Right::after
+    //     bottom: 5%
+    //     right: 20%
+    //     border-bottom: 4px solid #ff0000
+    //     border-right: 4px solid #ff0000
+    //     .imgsec1
+    //         border: 10px solid #323232
+              
+
+
+
+
+
+.section1::before
+    background-image: url(./../img/about-bg.jpg)
+    background-size: cover
+    position: absolute
+    content: ""
+    z-index: -1
+    width: 100%
+    height: 100%
+    filter: brightness(30%)
+    background-attachment: fixed
