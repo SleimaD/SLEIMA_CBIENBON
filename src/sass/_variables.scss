@@ -1,0 +1,47 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+//* Création de Spacer 
+$spacer : 10px;
+
+$spacers : map-merge($spacers, (
+    0 : 0px ,
+    1 : $spacer*1 ,
+    2 : $spacer*2 ,
+    3 : $spacer*3 ,
+    4 : $spacer*4 ,
+    5 : $spacer*5 ,
+    6 : $spacer*6 ,
+    7 : $spacer*7 ,
+    8 : $spacer*8 ,
+    9 : $spacer*9 ,
+    10 : $spacer*10 ,
+    11 : $spacer*11 ,
+    12 : $spacer*12 ,
+    15 : $spacer*15 ,
+    17 : $spacer*17 ,
+    20 : $spacer*20 ,
+    25 : $spacer*25 ,
+    26 : $spacer*26 ,
+    28 : $spacer*28 ,
+    30 : $spacer*30 ,
+    32 : $spacer*32 ,
+    40 : $spacer*40 ,
+));
+
+
+
+$couleur-perso : (
+    "orange" : rgb(207, 130, 22),
+    "orangebis" : #BD5D38,
+    "orangeClair" : #CA7D60,
+    "rose"   : #df46c8,
+    "bleuClaire"  : #32a2b8,
+    "purple"  : #6936ba,
+    "gris"  : #f8f9fa,
+    "grisspecial" : #495057,
+    "vertClair" : #5BB12F,
+);
+
+$theme-colors : map-merge($theme-colors , $couleur-perso);
