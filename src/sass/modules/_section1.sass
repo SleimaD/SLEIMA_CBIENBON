@@ -11,7 +11,35 @@
         width: 50%
         .imgdroite
             background-size: cover
-            border: solid 5px #3f3e3e
+            background-repeat: no-repeat
+            border: solid 4px rgb(63, 62, 62,70%) 
+            padding: 12px
+            display: flex
+            justify-content: center
+            align-items: center
+            .divcorner
+                position: relative
+            .divcorner::before, .divcorner::after
+                content: ''
+                position: absolute
+                border: 4px solid #CDA45D
+            .divcorner::before
+                top: 0
+                left: 0
+                width: 50px
+                height: 50px
+                border-bottom: none
+                border-right: none
+            .divcorner::after
+                    bottom: 0
+                    right: 0
+                    width: 50px
+                    height: 50px
+                    border-top: none
+                    border-left: none
+        
+            
+
 
 
 

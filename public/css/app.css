@@ -126,7 +126,36 @@ header::before {
 }
 .section1 .section1Right .imgdroite {
   background-size: cover;
-  border: solid 5px #3f3e3e;
+  background-repeat: no-repeat;
+  border: solid 4px rgba(63, 62, 62, 0.7);
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .section1Right .imgdroite .divcorner {
+  position: relative;
+}
+.section1 .section1Right .imgdroite .divcorner::before, .section1 .section1Right .imgdroite .divcorner::after {
+  content: "";
+  position: absolute;
+  border: 4px solid #CDA45D;
+}
+.section1 .section1Right .imgdroite .divcorner::before {
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-bottom: none;
+  border-right: none;
+}
+.section1 .section1Right .imgdroite .divcorner::after {
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
 }
 
 .section1::before {
