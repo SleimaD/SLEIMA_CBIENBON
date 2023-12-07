@@ -42,6 +42,7 @@ $couleur-perso : (
     "gris"  : #f8f9fa,
     "grisspecial" : #495057,
     "vertClair" : #5BB12F,
+    "sable" : #CDA45D,
 );
 
 $theme-colors : map-merge($theme-colors , $couleur-perso);
