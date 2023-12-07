@@ -73,9 +73,45 @@
 
             <div class="headerBottomRight ">
                 <div class="btnwaves">
-                    <button type="button" class="playbutton btn btn-sable rounded-pill ">
+                    <button type="button" class="playbutton btn btn-sable rounded-pill " data-bs-toggle="modal" data-bs-target="#YoutubeModal">
                         <i class="fa-solid fa-play" style="color: #ffffff;"></i>
                     </button>
+                    
+                   
+                    <!-- <div class="modal fade" id="YoutubeModal" tabindex="-1" aria-labelledby="YoutubeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=O_EcDNcPIbU&pp=ygUkZGVkaWNhY2UgYSBwZXJzb25uZSBmYWxsYWl0IGV0cmUgbGEg" allowfullscreen allow="autoplay"></iframe>
+
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div> -->
+
+                    <div class="modal fade" id="YoutubeModal" tabindex="-1" aria-labelledby="YoutubeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="videoModalLabel">Video Title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/watch?v=O_EcDNcPIbU&pp=ygUkZGVkaWNhY2UgYSBwZXJzb25uZSBmYWxsYWl0IGV0cmUgbGEg" frameborder="0"></iframe>
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YoutubeModal?rel=0&autoplay=1&modestbranding=1&autohide=1&showinfo=0&controls=0" allowfullscreen allow="autoplay"></iframe>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                 </div>
             </div>
         </div>
