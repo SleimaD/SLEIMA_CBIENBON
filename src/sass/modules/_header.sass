@@ -71,10 +71,6 @@ header
 
         
 
-   
-        
-
-
 
 
 
@@ -88,3 +84,23 @@ header::before
     height: 100%
     filter: brightness(30%)
     background-attachment: fixed
+
+
+@media (min-width: 375px) and (max-width: 768px)
+    .headerBottom
+        display: flex
+        flex-direction: column
+        .headerBottomLeft
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            text-align: center
+            .lesboutons
+                display: flex
+                gap: 1rem
+        .headerBottomRight
+            margin-top: 40px
+            display: flex
+            justify-content: center
+            
