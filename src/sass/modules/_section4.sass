@@ -1,0 +1,30 @@
+.section4
+    width: 100%
+    position: relative
+    .sec4topligne
+        width: 100%
+        display: flex
+        align-items: center
+        gap: 0.5rem
+        .lignesec4
+            position: relative
+        .lignesec4::after
+            position: absolute
+            content: ''
+            width: 100px
+            border: 0.2px solid rgb(44, 43, 43,60%)
+            top: 50%
+
+
+
+
+.section4::before
+    background-image: url(./../img/events-bg.jpg)
+    background-size: cover
+    position: absolute
+    content: ""
+    z-index: -1
+    width: 100%
+    height: 100%
+    filter: brightness(30%)
+    background-attachment: fixed
