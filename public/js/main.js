@@ -1,3 +1,5 @@
+
+
 /**
 * Template Name: Restaurantly
 * Updated: Sep 20 2023 with Bootstrap v5.3.2
@@ -202,6 +204,29 @@
       }
   
     });
+
+    window.addEventListener('load', () => {
+        let menuContainer = document.querySelector('.menu-container');
+        if (menuContainer) {
+          let menuIsotope = new Isotope(menuContainer, {
+            itemSelector: '.menu-item',
+            layoutMode: 'fitRows'
+          });
+      
+          let menuFilters = document.querySelectorAll('#menu-flters li');
+      
+          menuFilters.forEach(filter => {
+            filter.addEventListener('click', function(e) {
+              e.preventDefault();
+              const filterValue = this.getAttribute('data-filter');
+              menuIsotope.arrange({ filter: filterValue });
+              menuFilters.forEach(filter => filter.classList.remove('filter-active'));
+              this.classList.add('filter-active');
+            });
+          });
+        }
+      });
+      
   
     /**
      * Initiate glightbox 
