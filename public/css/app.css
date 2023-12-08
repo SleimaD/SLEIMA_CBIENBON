@@ -268,6 +268,26 @@ header::before {
     margin-top: 1rem !important;
   }
 }
+.section3 {
+  width: 100%;
+}
+.section3 .sec3Top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section3 .sec3Top .lignesec3 {
+  position: relative;
+}
+.section3 .sec3Top .lignesec3::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  border: 0.2px solid rgba(44, 43, 43, 0.3);
+  top: 50%;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
