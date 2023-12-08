@@ -250,10 +250,10 @@ header::before {
   border: 0.2px solid rgba(44, 43, 43, 0.3);
   top: 50%;
 }
-.section2 .sec2Bottom .container .row .col-md-4 .carte:hover {
+.section2 .sec2Bottom .container-fluid .row .col .carte:hover, .section2 .sec2Bottom .container-xxl .row .col .carte:hover, .section2 .sec2Bottom .container-xl .row .col .carte:hover, .section2 .sec2Bottom .container-lg .row .col .carte:hover, .section2 .sec2Bottom .container-md .row .col .carte:hover, .section2 .sec2Bottom .container-sm .row .col .carte:hover {
   background-color: #CDA45D !important;
 }
-.section2 .sec2Bottom .container .row .col-md-4 .carte:hover .card-title {
+.section2 .sec2Bottom .container-fluid .row .col .carte:hover .card-title, .section2 .sec2Bottom .container-xxl .row .col .carte:hover .card-title, .section2 .sec2Bottom .container-xl .row .col .carte:hover .card-title, .section2 .sec2Bottom .container-lg .row .col .carte:hover .card-title, .section2 .sec2Bottom .container-md .row .col .carte:hover .card-title, .section2 .sec2Bottom .container-sm .row .col .carte:hover .card-title {
   color: #fff !important;
 }
 
@@ -287,7 +287,21 @@ header::before {
   border: 0.2px solid rgba(44, 43, 43, 0.3);
   top: 50%;
 }
-
+.section3 .btn-group {
+  margin-bottom: 1rem;
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+}
+.section3 .btn-group .btn {
+  background-color: #333;
+  color: #fff;
+  background-color: #4d4d4d;
+}
+.section3 .btn-group .menu-item {
+  margin-bottom: 0.5rem;
+  display: none;
+}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

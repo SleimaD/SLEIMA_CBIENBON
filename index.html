@@ -215,28 +215,45 @@
         </div>
     </section>
 
-    <section class="section3 bg-marron">
-      <div class="sec3Top ps-4 pt-4">
-        <h5 class="text-white">MENU</h5>
-        <div class="lignesec3"></div>
-      </div>
-      <div class="sec3Center ps-4">
-        <h2 class="text-sable"> Check Our Tasty Menu</h2>
-      </div>
-    </section>
+    <section class="section3 bg-marron"></section>
+
+    <section class="section4"></section>
 
 
 
 
 
 
+    <!-- <script>
+            window.addEventListener('load', () => {
+        let menuContainer = select('.menu-container');
+        if (menuContainer) {
+          let menuIsotope = new Isotope(menuContainer, {
+            itemSelector: '.menu-item',
+            layoutMode: 'fitRows'
+          });
 
+          let menuFilters = select('#menu-flters li', true);
 
+          on('click', '#menu-flters li', function(e) {
+            e.preventDefault();
+            menuFilters.forEach(function(el) {
+              el.classList.remove('filter-active');
+            });
+            this.classList.add('filter-active');
 
+            menuIsotope.arrange({
+              filter: this.getAttribute('data-filter')
+            });
+            menuIsotope.on('arrangeComplete', function() {
+              AOS.refresh()
+            });
+          }, true);
+        }
 
-
-
-
+      });
+    </script>
+ -->
     <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
