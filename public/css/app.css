@@ -451,6 +451,17 @@ header::before {
 .section6 .gallerytop h2, .section6 .gallerytop .h2 {
   font-family: "Playfair Display";
 }
+.section6 .gallerybottom .card {
+  overflow: hidden;
+  border-right: 3px solid #454035 !important;
+  border-bottom: 3px solid #454035 !important;
+}
+.section6 .gallerybottom .card img {
+  transition: all ease-in-out 0.4s;
+}
+.section6 .gallerybottom .card:hover img {
+  transform: scale(1.1);
+}
 
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
