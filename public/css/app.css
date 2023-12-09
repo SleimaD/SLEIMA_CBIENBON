@@ -427,6 +427,31 @@ header::before {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.section6 {
+  width: 100%;
+}
+.section6 .gallerytop {
+  width: 100%;
+  gap: 0.5rem;
+}
+.section6 .gallerytop .gallerytopchild {
+  display: flex;
+  gap: 1rem;
+}
+.section6 .gallerytop .gallerytopchild .lignesec6 {
+  position: relative;
+}
+.section6 .gallerytop .gallerytopchild .lignesec6::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  border: 0.2px solid rgba(44, 43, 43, 0.3);
+  top: 50%;
+}
+.section6 .gallerytop h2, .section6 .gallerytop .h2 {
+  font-family: "Playfair Display";
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
