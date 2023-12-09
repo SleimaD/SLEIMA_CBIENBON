@@ -463,6 +463,31 @@ header::before {
   transform: scale(1.1);
 }
 
+.section7 {
+  width: 100%;
+}
+.section7 .sec7Top {
+  width: 100%;
+  gap: 0.5rem;
+}
+.section7 .sec7Top .sec7topchild {
+  display: flex;
+  gap: 1rem;
+}
+.section7 .sec7Top .sec7topchild .lignesec7 {
+  position: relative;
+}
+.section7 .sec7Top .sec7topchild .lignesec7::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  border: 0.2px solid rgba(44, 43, 43, 0.3);
+  top: 50%;
+}
+.section7 .sec7Top h2, .section7 .sec7Top .h2 {
+  font-family: "Playfair Display";
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
