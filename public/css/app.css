@@ -559,6 +559,31 @@ header::before {
   color: #cda45e;
 }
 
+.section8 {
+  width: 100%;
+}
+.section8 .sec8Title {
+  width: 100%;
+  gap: 0.5rem;
+}
+.section8 .sec8Title .sec8in {
+  display: flex;
+  gap: 1rem;
+}
+.section8 .sec8Title .sec8in .lignesec8 {
+  position: relative;
+}
+.section8 .sec8Title .sec8in .lignesec8::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  border: 0.2px solid rgba(44, 43, 43, 0.3);
+  top: 50%;
+}
+.section8 .sec8Title h2, .section8 .sec8Title .h2 {
+  font-family: "Playfair Display";
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
