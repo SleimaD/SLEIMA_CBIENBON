@@ -487,6 +487,73 @@ header::before {
 .section7 .sec7Top h2, .section7 .sec7Top .h2 {
   font-family: "Playfair Display";
 }
+.section7 .sec7Bottom .chef {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.section7 .sec7Bottom .chef:hover .info {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+  opacity: 1;
+  transition: 0.4s;
+}
+.section7 .sec7Bottom .chef:hover .inner-info {
+  bottom: 60px;
+  transition: bottom 0.4s;
+}
+.section7 .sec7Bottom .chef:hover .socials {
+  bottom: 0;
+  transition: bottom ease-in-out 0.4s;
+}
+.section7 .sec7Bottom .chef .info {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+.section7 .sec7Bottom .chef .inner-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  transition: bottom 0.4s;
+}
+.section7 .sec7Bottom .chef .inner-info h4, .section7 .sec7Bottom .chef .inner-info .h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+.section7 .sec7Bottom .chef .inner-info span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.section7 .sec7Bottom .chef .socials {
+  position: absolute;
+  left: 0;
+  bottom: -38px;
+  right: 0;
+  height: 48px;
+  transition: bottom ease-in-out 0.4s;
+  text-align: center;
+}
+.section7 .sec7Bottom .chef .socials a {
+  transition: color 0.3s;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  color: #cda45e;
+}
+.section7 .sec7Bottom .chef .socials i {
+  font-size: 18px;
+  margin: 0 2px;
+}
 
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
