@@ -553,10 +553,10 @@ header::before {
   display: inline-block;
 }
 .section7 .sec7Bottom .chef .socials:hover {
-  color: #cda45e;
+  color: #cda45e !important;
 }
 .section7 .sec7Bottom .chef .socials:hover i {
-  color: #cda45e;
+  color: #cda45e !important;
 }
 
 .section8 {
