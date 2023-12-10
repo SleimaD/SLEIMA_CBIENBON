@@ -583,10 +583,7 @@ header::before {
 .section8 .sec8Title h2, .section8 .sec8Title .h2 {
   font-family: "Playfair Display";
 }
-.section8 .container .row .col-lg-4 .informations {
-  width: 100%;
-}
-.section8 .container .row .col-lg-4 .informations i {
+.section8 .container-fluid .row .col-lg-4 .informations i, .section8 .container-xxl .row .col-lg-4 .informations i, .section8 .container-xl .row .col-lg-4 .informations i, .section8 .container-lg .row .col-lg-4 .informations i, .section8 .container-md .row .col-lg-4 .informations i, .section8 .container-sm .row .col-lg-4 .informations i {
   color: #fff;
   font-size: 20px;
   float: left;
@@ -598,14 +595,20 @@ header::before {
   align-items: center;
   border-radius: 50px;
 }
-.section8 .container .row .col-lg-4 .informations h4, .section8 .container .row .col-lg-4 .informations .h4 {
+.section8 .container-fluid .row .col-lg-4 .informations h4, .section8 .container-xxl .row .col-lg-4 .informations h4, .section8 .container-xl .row .col-lg-4 .informations h4, .section8 .container-lg .row .col-lg-4 .informations h4, .section8 .container-md .row .col-lg-4 .informations h4, .section8 .container-sm .row .col-lg-4 .informations h4, .section8 .container-fluid .row .col-lg-4 .informations .h4, .section8 .container-xxl .row .col-lg-4 .informations .h4, .section8 .container-xl .row .col-lg-4 .informations .h4, .section8 .container-lg .row .col-lg-4 .informations .h4, .section8 .container-md .row .col-lg-4 .informations .h4, .section8 .container-sm .row .col-lg-4 .informations .h4 {
   font-weight: bold;
   font-size: 20px;
   color: #fff;
 }
-.section8 .container .row .col-lg-4 .informations p {
+.section8 .container-fluid .row .col-lg-4 .informations p, .section8 .container-xxl .row .col-lg-4 .informations p, .section8 .container-xl .row .col-lg-4 .informations p, .section8 .container-lg .row .col-lg-4 .informations p, .section8 .container-md .row .col-lg-4 .informations p, .section8 .container-sm .row .col-lg-4 .informations p {
   color: #bab3a6;
   margin-top: -8px;
+}
+.section8 .container-fluid .row .col-lg-8 form, .section8 .container-xxl .row .col-lg-8 form, .section8 .container-xl .row .col-lg-8 form, .section8 .container-lg .row .col-lg-8 form, .section8 .container-md .row .col-lg-8 form, .section8 .container-sm .row .col-lg-8 form {
+  width: 100% !important;
+}
+.section8 .container-fluid .row .col-lg-8 form .row .inputss .form-control, .section8 .container-xxl .row .col-lg-8 form .row .inputss .form-control, .section8 .container-xl .row .col-lg-8 form .row .inputss .form-control, .section8 .container-lg .row .col-lg-8 form .row .inputss .form-control, .section8 .container-md .row .col-lg-8 form .row .inputss .form-control, .section8 .container-sm .row .col-lg-8 form .row .inputss .form-control {
+  border-radius: 0 !important;
 }
 
 /*!
