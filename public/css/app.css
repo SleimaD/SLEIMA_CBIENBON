@@ -548,7 +548,6 @@ header::before {
 }
 .section7 .sec7Bottom .chef .socials a {
   transition: color 0.3s;
-  color: #cda45e;
   margin: 0 10px;
   display: inline-block;
 }
